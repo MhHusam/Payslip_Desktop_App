@@ -1,0 +1,17 @@
+{
+    "appId": "com.n.electron-payslip",
+    "files": [
+        "dist-electron",
+        "dist-react"
+    ],
+    "extraResources": [
+        "dist-electron/preload.cjs"
+    ],
+    "icon": "./payslip.png",
+    "win": {
+        "target": [
+            "portable",
+            "msi"
+        ]
+    }
+}

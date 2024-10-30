@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+  .loading {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .loading-active {
+    background-color: black;
+    color: #fff;
+}
+
+.input {
+  @apply w-full p-2 mb-2 border rounded focus:outline-none focus:ring-2 focus:ring-[#48c598];
+}
+.btn {
+  @apply px-4 py-2 bg-[#48c598] text-white font-bold rounded hover:bg-[#48c598]/80 transition;
+}
+
+.bg-colored {
+  @apply bg-gradient-to-r from-[#48c598] to-green-800   ;
+}
